@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2BC543614D4AC4B00D541E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BC543514D4AC4B00D541E5 /* Cocoa.framework */; };
+		D2BC544014D4AC4B00D541E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2BC543E14D4AC4B00D541E5 /* InfoPlist.strings */; };
+		D2BC544214D4AC4B00D541E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC544114D4AC4B00D541E5 /* main.m */; };
+		D2BC544614D4AC4B00D541E5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D2BC544414D4AC4B00D541E5 /* Credits.rtf */; };
+		D2BC544914D4AC4B00D541E5 /* MAPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC544814D4AC4B00D541E5 /* MAPAppDelegate.m */; };
+		D2BC544C14D4AC4B00D541E5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2BC544A14D4AC4B00D541E5 /* MainMenu.xib */; };
+		D2BC545414D4AC4B00D541E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BC545314D4AC4B00D541E5 /* SenTestingKit.framework */; };
+		D2BC545514D4AC4B00D541E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BC543514D4AC4B00D541E5 /* Cocoa.framework */; };
+		D2BC545D14D4AC4B00D541E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2BC545B14D4AC4B00D541E5 /* InfoPlist.strings */; };
+		D2BC546014D4AC4B00D541E5 /* MyListReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC545F14D4AC4B00D541E5 /* MyListReaderTests.m */; };
+		D2BC546B14D4B0B500D541E5 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC546A14D4B0B500D541E5 /* AppController.m */; };
+		D2BC546E14D4B1DB00D541E5 /* MyListLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC546D14D4B1DB00D541E5 /* MyListLoader.m */; };
+		D2BC547114D4B22C00D541E5 /* VideoInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC547014D4B22C00D541E5 /* VideoInfo.m */; };
+		D2BC547414D4BBA400D541E5 /* MyList.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC547314D4BBA400D541E5 /* MyList.m */; };
+		D2BC547714D4BC5C00D541E5 /* ThumbInfoLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC547614D4BC5C00D541E5 /* ThumbInfoLoader.m */; };
+		D2BC547A14D4BCE200D541E5 /* XMLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC547914D4BCE200D541E5 /* XMLUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2BC545614D4AC4B00D541E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2BC542814D4AC4B00D541E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2BC543014D4AC4B00D541E5;
+			remoteInfo = MyListReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2BC543114D4AC4B00D541E5 /* MyListReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyListReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BC543514D4AC4B00D541E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D2BC543814D4AC4B00D541E5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D2BC543914D4AC4B00D541E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D2BC543A14D4AC4B00D541E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2BC543D14D4AC4B00D541E5 /* MyListReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyListReader-Info.plist"; sourceTree = "<group>"; };
+		D2BC543F14D4AC4B00D541E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2BC544114D4AC4B00D541E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2BC544314D4AC4B00D541E5 /* MyListReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyListReader-Prefix.pch"; sourceTree = "<group>"; };
+		D2BC544514D4AC4B00D541E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D2BC544714D4AC4B00D541E5 /* MAPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPAppDelegate.h; sourceTree = "<group>"; };
+		D2BC544814D4AC4B00D541E5 /* MAPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPAppDelegate.m; sourceTree = "<group>"; };
+		D2BC544B14D4AC4B00D541E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D2BC545214D4AC4B00D541E5 /* MyListReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyListReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BC545314D4AC4B00D541E5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2BC545A14D4AC4B00D541E5 /* MyListReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyListReaderTests-Info.plist"; sourceTree = "<group>"; };
+		D2BC545C14D4AC4B00D541E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D2BC545E14D4AC4B00D541E5 /* MyListReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyListReaderTests.h; sourceTree = "<group>"; };
+		D2BC545F14D4AC4B00D541E5 /* MyListReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyListReaderTests.m; sourceTree = "<group>"; };
+		D2BC546914D4B0B500D541E5 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		D2BC546A14D4B0B500D541E5 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		D2BC546C14D4B1DB00D541E5 /* MyListLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyListLoader.h; sourceTree = "<group>"; };
+		D2BC546D14D4B1DB00D541E5 /* MyListLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyListLoader.m; sourceTree = "<group>"; };
+		D2BC546F14D4B22C00D541E5 /* VideoInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoInfo.h; sourceTree = "<group>"; };
+		D2BC547014D4B22C00D541E5 /* VideoInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoInfo.m; sourceTree = "<group>"; };
+		D2BC547214D4BBA400D541E5 /* MyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyList.h; sourceTree = "<group>"; };
+		D2BC547314D4BBA400D541E5 /* MyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyList.m; sourceTree = "<group>"; };
+		D2BC547514D4BC5C00D541E5 /* ThumbInfoLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbInfoLoader.h; sourceTree = "<group>"; };
+		D2BC547614D4BC5C00D541E5 /* ThumbInfoLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbInfoLoader.m; sourceTree = "<group>"; };
+		D2BC547814D4BCE200D541E5 /* XMLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLUtil.h; sourceTree = "<group>"; };
+		D2BC547914D4BCE200D541E5 /* XMLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2BC542E14D4AC4B00D541E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BC543614D4AC4B00D541E5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BC544E14D4AC4B00D541E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BC545414D4AC4B00D541E5 /* SenTestingKit.framework in Frameworks */,
+				D2BC545514D4AC4B00D541E5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2BC542614D4AC4B00D541E5 = {
+			isa = PBXGroup;
+			children = (
+				D2BC543B14D4AC4B00D541E5 /* MyListReader */,
+				D2BC545814D4AC4B00D541E5 /* MyListReaderTests */,
+				D2BC543414D4AC4B00D541E5 /* Frameworks */,
+				D2BC543214D4AC4B00D541E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2BC543214D4AC4B00D541E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC543114D4AC4B00D541E5 /* MyListReader.app */,
+				D2BC545214D4AC4B00D541E5 /* MyListReaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2BC543414D4AC4B00D541E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC543514D4AC4B00D541E5 /* Cocoa.framework */,
+				D2BC545314D4AC4B00D541E5 /* SenTestingKit.framework */,
+				D2BC543714D4AC4B00D541E5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2BC543714D4AC4B00D541E5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC543814D4AC4B00D541E5 /* AppKit.framework */,
+				D2BC543914D4AC4B00D541E5 /* CoreData.framework */,
+				D2BC543A14D4AC4B00D541E5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D2BC543B14D4AC4B00D541E5 /* MyListReader */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC544714D4AC4B00D541E5 /* MAPAppDelegate.h */,
+				D2BC544814D4AC4B00D541E5 /* MAPAppDelegate.m */,
+				D2BC544A14D4AC4B00D541E5 /* MainMenu.xib */,
+				D2BC543C14D4AC4B00D541E5 /* Supporting Files */,
+				D2BC546914D4B0B500D541E5 /* AppController.h */,
+				D2BC546A14D4B0B500D541E5 /* AppController.m */,
+				D2BC546C14D4B1DB00D541E5 /* MyListLoader.h */,
+				D2BC546D14D4B1DB00D541E5 /* MyListLoader.m */,
+				D2BC546F14D4B22C00D541E5 /* VideoInfo.h */,
+				D2BC547014D4B22C00D541E5 /* VideoInfo.m */,
+				D2BC547214D4BBA400D541E5 /* MyList.h */,
+				D2BC547314D4BBA400D541E5 /* MyList.m */,
+				D2BC547514D4BC5C00D541E5 /* ThumbInfoLoader.h */,
+				D2BC547614D4BC5C00D541E5 /* ThumbInfoLoader.m */,
+				D2BC547814D4BCE200D541E5 /* XMLUtil.h */,
+				D2BC547914D4BCE200D541E5 /* XMLUtil.m */,
+			);
+			path = MyListReader;
+			sourceTree = "<group>";
+		};
+		D2BC543C14D4AC4B00D541E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC543D14D4AC4B00D541E5 /* MyListReader-Info.plist */,
+				D2BC543E14D4AC4B00D541E5 /* InfoPlist.strings */,
+				D2BC544114D4AC4B00D541E5 /* main.m */,
+				D2BC544314D4AC4B00D541E5 /* MyListReader-Prefix.pch */,
+				D2BC544414D4AC4B00D541E5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2BC545814D4AC4B00D541E5 /* MyListReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC545E14D4AC4B00D541E5 /* MyListReaderTests.h */,
+				D2BC545F14D4AC4B00D541E5 /* MyListReaderTests.m */,
+				D2BC545914D4AC4B00D541E5 /* Supporting Files */,
+			);
+			path = MyListReaderTests;
+			sourceTree = "<group>";
+		};
+		D2BC545914D4AC4B00D541E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2BC545A14D4AC4B00D541E5 /* MyListReaderTests-Info.plist */,
+				D2BC545B14D4AC4B00D541E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2BC543014D4AC4B00D541E5 /* MyListReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BC546314D4AC4B00D541E5 /* Build configuration list for PBXNativeTarget "MyListReader" */;
+			buildPhases = (
+				D2BC542D14D4AC4B00D541E5 /* Sources */,
+				D2BC542E14D4AC4B00D541E5 /* Frameworks */,
+				D2BC542F14D4AC4B00D541E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyListReader;
+			productName = MyListReader;
+			productReference = D2BC543114D4AC4B00D541E5 /* MyListReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2BC545114D4AC4B00D541E5 /* MyListReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BC546614D4AC4B00D541E5 /* Build configuration list for PBXNativeTarget "MyListReaderTests" */;
+			buildPhases = (
+				D2BC544D14D4AC4B00D541E5 /* Sources */,
+				D2BC544E14D4AC4B00D541E5 /* Frameworks */,
+				D2BC544F14D4AC4B00D541E5 /* Resources */,
+				D2BC545014D4AC4B00D541E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2BC545714D4AC4B00D541E5 /* PBXTargetDependency */,
+			);
+			name = MyListReaderTests;
+			productName = MyListReaderTests;
+			productReference = D2BC545214D4AC4B00D541E5 /* MyListReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2BC542814D4AC4B00D541E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = MineAP;
+			};
+			buildConfigurationList = D2BC542B14D4AC4B00D541E5 /* Build configuration list for PBXProject "MyListReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D2BC542614D4AC4B00D541E5;
+			productRefGroup = D2BC543214D4AC4B00D541E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2BC543014D4AC4B00D541E5 /* MyListReader */,
+				D2BC545114D4AC4B00D541E5 /* MyListReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2BC542F14D4AC4B00D541E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BC544014D4AC4B00D541E5 /* InfoPlist.strings in Resources */,
+				D2BC544614D4AC4B00D541E5 /* Credits.rtf in Resources */,
+				D2BC544C14D4AC4B00D541E5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BC544F14D4AC4B00D541E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BC545D14D4AC4B00D541E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2BC545014D4AC4B00D541E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2BC542D14D4AC4B00D541E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BC544214D4AC4B00D541E5 /* main.m in Sources */,
+				D2BC544914D4AC4B00D541E5 /* MAPAppDelegate.m in Sources */,
+				D2BC546B14D4B0B500D541E5 /* AppController.m in Sources */,
+				D2BC546E14D4B1DB00D541E5 /* MyListLoader.m in Sources */,
+				D2BC547114D4B22C00D541E5 /* VideoInfo.m in Sources */,
+				D2BC547414D4BBA400D541E5 /* MyList.m in Sources */,
+				D2BC547714D4BC5C00D541E5 /* ThumbInfoLoader.m in Sources */,
+				D2BC547A14D4BCE200D541E5 /* XMLUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BC544D14D4AC4B00D541E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BC546014D4AC4B00D541E5 /* MyListReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2BC545714D4AC4B00D541E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2BC543014D4AC4B00D541E5 /* MyListReader */;
+			targetProxy = D2BC545614D4AC4B00D541E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2BC543E14D4AC4B00D541E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BC543F14D4AC4B00D541E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D2BC544414D4AC4B00D541E5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BC544514D4AC4B00D541E5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D2BC544A14D4AC4B00D541E5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BC544B14D4AC4B00D541E5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D2BC545B14D4AC4B00D541E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BC545C14D4AC4B00D541E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2BC546114D4AC4B00D541E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2BC546214D4AC4B00D541E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2BC546414D4AC4B00D541E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyListReader/MyListReader-Prefix.pch";
+				INFOPLIST_FILE = "MyListReader/MyListReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2BC546514D4AC4B00D541E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyListReader/MyListReader-Prefix.pch";
+				INFOPLIST_FILE = "MyListReader/MyListReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D2BC546714D4AC4B00D541E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyListReader.app/Contents/MacOS/MyListReader";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyListReader/MyListReader-Prefix.pch";
+				INFOPLIST_FILE = "MyListReaderTests/MyListReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D2BC546814D4AC4B00D541E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyListReader.app/Contents/MacOS/MyListReader";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyListReader/MyListReader-Prefix.pch";
+				INFOPLIST_FILE = "MyListReaderTests/MyListReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2BC542B14D4AC4B00D541E5 /* Build configuration list for PBXProject "MyListReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BC546114D4AC4B00D541E5 /* Debug */,
+				D2BC546214D4AC4B00D541E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2BC546314D4AC4B00D541E5 /* Build configuration list for PBXNativeTarget "MyListReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BC546414D4AC4B00D541E5 /* Debug */,
+				D2BC546514D4AC4B00D541E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2BC546614D4AC4B00D541E5 /* Build configuration list for PBXNativeTarget "MyListReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BC546714D4AC4B00D541E5 /* Debug */,
+				D2BC546814D4AC4B00D541E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2BC542814D4AC4B00D541E5 /* Project object */;
+}

@@ -9,17 +9,47 @@
 #import "AppController.h"
 #import "MyListLoader.h"
 #import "VideoInfo.h"
+#import "NicoLogin.h"
 
 @implementation AppController
+
+@synthesize myList;
+
+-(NSString*)myListUrl
+{
+    return urlInputField.stringValue;
+}
+
+-(void)reloadRssItemView
+{
+    [rssItemView reloadData];
+}
 
 -(IBAction)loadMyList:(id)sender
 {
     
     MyListLoader* loader = [[MyListLoader alloc] init];
     
-    myList = [loader loadMyListAndGetVideoInfos:urlInputField.stringValue];
     
-    [rssItemView reloadData];
+    NSString* url = urlInputField.stringValue;
+    if ([url length] < 1)
+    {
+        return;
+    }
+    
+    NSRange range = [url rangeOfString:@"http"];
+    if (range.length > 0)
+    {
+        // http指定
+        
+        [[[NicoLogin alloc] init:self] checkAndLogin:mailInputField.stringValue :passInputField.stringValue];
+        
+    }
+    else
+    {
+        myList = [loader loadMyListAndGetVideoInfos:url];
+        [self reloadRssItemView];
+    }
     
 }
 

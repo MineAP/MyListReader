@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D25C827714E756C400C02AF6 /* NicoLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = D25C827614E756C400C02AF6 /* NicoLogin.m */; };
+		D2A0849D14E75A43009FFE0F /* NicoLoginDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A0849C14E75A43009FFE0F /* NicoLoginDelegate.m */; };
 		D2BC543614D4AC4B00D541E5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BC543514D4AC4B00D541E5 /* Cocoa.framework */; };
 		D2BC544014D4AC4B00D541E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2BC543E14D4AC4B00D541E5 /* InfoPlist.strings */; };
 		D2BC544214D4AC4B00D541E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC544114D4AC4B00D541E5 /* main.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D25C827514E756C400C02AF6 /* NicoLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NicoLogin.h; sourceTree = "<group>"; };
+		D25C827614E756C400C02AF6 /* NicoLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NicoLogin.m; sourceTree = "<group>"; };
+		D2A0849B14E75A43009FFE0F /* NicoLoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NicoLoginDelegate.h; path = ../NicoLoginDelegate.h; sourceTree = "<group>"; };
+		D2A0849C14E75A43009FFE0F /* NicoLoginDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NicoLoginDelegate.m; path = ../NicoLoginDelegate.m; sourceTree = "<group>"; };
 		D2BC543114D4AC4B00D541E5 /* MyListReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyListReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BC543514D4AC4B00D541E5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D2BC543814D4AC4B00D541E5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -140,6 +146,8 @@
 				D2BC546A14D4B0B500D541E5 /* AppController.m */,
 				D2BC546C14D4B1DB00D541E5 /* MyListLoader.h */,
 				D2BC546D14D4B1DB00D541E5 /* MyListLoader.m */,
+				D2A0849B14E75A43009FFE0F /* NicoLoginDelegate.h */,
+				D2A0849C14E75A43009FFE0F /* NicoLoginDelegate.m */,
 				D2BC546F14D4B22C00D541E5 /* VideoInfo.h */,
 				D2BC547014D4B22C00D541E5 /* VideoInfo.m */,
 				D2BC547214D4BBA400D541E5 /* MyList.h */,
@@ -148,6 +156,8 @@
 				D2BC547614D4BC5C00D541E5 /* ThumbInfoLoader.m */,
 				D2BC547814D4BCE200D541E5 /* XMLUtil.h */,
 				D2BC547914D4BCE200D541E5 /* XMLUtil.m */,
+				D25C827514E756C400C02AF6 /* NicoLogin.h */,
+				D25C827614E756C400C02AF6 /* NicoLogin.m */,
 			);
 			path = MyListReader;
 			sourceTree = "<group>";
@@ -299,6 +309,8 @@
 				D2BC547414D4BBA400D541E5 /* MyList.m in Sources */,
 				D2BC547714D4BC5C00D541E5 /* ThumbInfoLoader.m in Sources */,
 				D2BC547A14D4BCE200D541E5 /* XMLUtil.m in Sources */,
+				D25C827714E756C400C02AF6 /* NicoLogin.m in Sources */,
+				D2A0849D14E75A43009FFE0F /* NicoLoginDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +486,7 @@
 				D2BC546514D4AC4B00D541E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2BC546614D4AC4B00D541E5 /* Build configuration list for PBXNativeTarget "MyListReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +495,7 @@
 				D2BC546814D4AC4B00D541E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,6 +16,14 @@
     IBOutlet NSTextField* urlInputField;
     IBOutlet NSTableView* rssItemView;
     
+    
+    IBOutlet NSTextField* mailInputField;
+    IBOutlet NSTextField* passInputField;
+    
 }
+
 - (IBAction)loadMyList:(id)sender;
+- (NSString*)myListUrl;
+- (void)reloadRssItemView;
+@property (retain) MyList* myList;
 @end

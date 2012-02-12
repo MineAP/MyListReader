@@ -25,6 +25,7 @@
 		D2BC547414D4BBA400D541E5 /* MyList.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC547314D4BBA400D541E5 /* MyList.m */; };
 		D2BC547714D4BC5C00D541E5 /* ThumbInfoLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC547614D4BC5C00D541E5 /* ThumbInfoLoader.m */; };
 		D2BC547A14D4BCE200D541E5 /* XMLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BC547914D4BCE200D541E5 /* XMLUtil.m */; };
+		D2FFF61F14E7825000237EF2 /* NicoLoginDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FFF61E14E7825000237EF2 /* NicoLoginDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		D2BC547614D4BC5C00D541E5 /* ThumbInfoLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbInfoLoader.m; sourceTree = "<group>"; };
 		D2BC547814D4BCE200D541E5 /* XMLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLUtil.h; sourceTree = "<group>"; };
 		D2BC547914D4BCE200D541E5 /* XMLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLUtil.m; sourceTree = "<group>"; };
+		D2FFF61D14E7825000237EF2 /* NicoLoginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NicoLoginDelegate.h; sourceTree = "<group>"; };
+		D2FFF61E14E7825000237EF2 /* NicoLoginDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NicoLoginDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				D2BC546D14D4B1DB00D541E5 /* MyListLoader.m */,
 				D2A0849B14E75A43009FFE0F /* NicoLoginDelegate.h */,
 				D2A0849C14E75A43009FFE0F /* NicoLoginDelegate.m */,
+				D2FFF61D14E7825000237EF2 /* NicoLoginDelegate.h */,
+				D2FFF61E14E7825000237EF2 /* NicoLoginDelegate.m */,
 				D2BC546F14D4B22C00D541E5 /* VideoInfo.h */,
 				D2BC547014D4B22C00D541E5 /* VideoInfo.m */,
 				D2BC547214D4BBA400D541E5 /* MyList.h */,
@@ -311,6 +316,7 @@
 				D2BC547A14D4BCE200D541E5 /* XMLUtil.m in Sources */,
 				D25C827714E756C400C02AF6 /* NicoLogin.m in Sources */,
 				D2A0849D14E75A43009FFE0F /* NicoLoginDelegate.m in Sources */,
+				D2FFF61F14E7825000237EF2 /* NicoLoginDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

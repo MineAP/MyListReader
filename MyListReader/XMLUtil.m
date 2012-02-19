@@ -19,13 +19,6 @@
     if (range.length == 0)
     {
         // httpではない
-//        range = [path rangeOfString:@"file://"];
-//        if (range.length == 0)
-//        {
-//            NSString* pre = @"file://";
-//            path = [pre stringByAppendingString:path];
-//        }
-        
         NSString* xmlStr = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:NULL];
         
         document = [[NSXMLDocument alloc] initWithXMLString:xmlStr options:0 error:NULL];
@@ -34,6 +27,8 @@
     else
     {
         // http上
+        path = [path stringByAppendingString:@"?rss=2.0"];
+        
         NSURL* url = [NSURL URLWithString:path];
         
         document = [[NSXMLDocument alloc] initWithContentsOfURL:url options:0 error:NULL];

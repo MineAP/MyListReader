@@ -10,6 +10,7 @@
 
 @implementation NicoLogin
 
+// コンストラクタ
 -(id)init:(AppController *)appController
 {
     [super init];
@@ -19,6 +20,7 @@
     return self;
 }
 
+// 指定されたユーザ名およびパスワードでニコニコ動画にログインします
 -(void)login:(NSString *)userName :(NSString *)password
 {
     
@@ -48,6 +50,7 @@
     
 }
 
+// ニコニコ動画に既にログイン済みかどうかチェックした後、ログイン済みでない場合にのみログインを行います。
 -(void)checkAndLogin:(NSString *)userName :(NSString *)password
 {
     

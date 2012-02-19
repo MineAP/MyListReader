@@ -11,6 +11,7 @@
 
 @implementation NicoLoginDelegate
 
+// コンストラクタ
 -(id)init:(AppController *)appController address:(NSString*)mailAddr pass:(NSString*)password
 {
     [super init];
@@ -20,16 +21,16 @@
     mail = mailAddr;
     pass = password;
     
-    
     return self;
 }
 
-
+// データを受け取ったときに呼ばれる
 -(void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
 {
     // 何もしない
 }
 
+// レスポンスを受け取ったときに呼ばれる
 -(void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
     NSLog(@"didReceiveResponse");
@@ -71,6 +72,7 @@
     
 }
 
+// データの受信が完了したときに呼ばれる
 -(void)connectionDidFinishLoading:(NSURLConnection *)connection
 {    
     // 何もしない
